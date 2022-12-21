@@ -195,7 +195,9 @@ function validateForm(){
     submitError.innerText = 'Please fix error to submit!'
     return false
   }
-  
+
+  submitError.innerText = ''
+  return true
 }
 
 
